@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/f437a17a8c.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+    <title>Tela Login</title>
+</head>
+<body>
+    <main>
+        <div class="login-container" id="login-container">
+            <div class="form-container">
+                <form class="form form-login">
+                    <h2 class="form-title">Entrar com</h2>
+                    <div class="form-social">
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-google"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </div><!--form-social-->
+                    <p class="form-text">Ou utilize a conta</p>
+                    <div class="form-input-container">
+                        <input type="email" class="form-input" placeholder="Email">
+                        <input type="password" class="form-input" placeholder="Senha">
+                    </div><!--form-inputs-->
+                    <a href="#" class="form-link">Esqueceu a senha?</a>
+                    <button class="form-button">Logar</button>
+                    <p class="mobile-text">
+                      Não possui conta? 
+                      <a href="#" id="open-register-mobile">Registre-se</a>
+                    </p>
+                </form><!--form-login-->
+                <form class="form form-register">
+                    <h2 class="form-title">Criar conta</h2>
+                    <div class="form-social">
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-google"></i>
+                        </a>
+                        <a href="#" class="social-icon">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </div><!--form-social-->
+                    <p class="form-text">ou cadastre-se aqui !</p>
+                    <div class="form-input-container">
+                        <input type="text" class="form-input" placeholder="Nome Completo">
+                        <input type="emial" class="form-input" placeholder="Email">
+                        <input type="password" class="form-input" placeholder="Senha">
+                    </div><!--form-inputs-->
+                    <button type="button"  class="form-button">Cadastrar</button>
+                    <p class="mobile-text">
+                        Já tem conta?
+                        <a href="#" id="open-login-mobile">Login</a>
+                    </p>
+                </form>
+            </div>
+            <div class="overlay-container">
+               <div class="overlay">
+                <h2 class="form-title form-title-light">Ja possui conta?</h2>
+                <p class="form-text">Para entrar em nossa plataforma, faça o login com suas informações</p>
+                <button class="form-button form-button-light" id="open-login">Entrar</button>
+               </div>
+              <div class="overlay">
+                <h2 class="form-title form-title-light">Olá Aluno !</h2>
+                <p class="form-text">Cadastre-se e comece a utilizar nossa plataforma</p>
+                <button type="button" class="form-button form-button-light" id="open-register" >Cadastre-se</button>
+            </div>
+            </div><!--overlay-container-->
+        </div><!--login-container-->
+    </main><!--main-->
+    <script src="./scripts/scripts.js"></script>
+</body>
+</html>

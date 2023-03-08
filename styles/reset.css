@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Michroma', sans-serif;
+    text-decoration: none;
+}
+
+
+:root{
+    --text-color-dark:#000;
+    --text-color-light:#fff;
+    --color-primary:#ff6347;
+    --color-secundary:#ffff;
+    --backgound-icons:#ece9e9
+
+}
+
+a{
+    color: var(--text-color-dark);
+}
